@@ -6,30 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first TOP project</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 
 <body>
     <!--HEADER SECTION-->
-    <div class="header">
-
-        <div class="header-top">
-            <div class="logo">Header Logo</div>
-            <ul>
-                <li><a href="">Header link one</a></li>
-                <li><a href="">Header link two</a></li>
-                <li><a href="">Header link three</a></li>
-            </ul>    
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Landing Page</div>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="header-mid">
-            <div class="header-mid-left">
-                <h2>This website is awesome</h2>
-                <p>This website has some subtext here that goes under the main title. It's a smaller font and the color is a lower contrast. I wonder if I type more here will it go to the next row</p>
-                <button>Sign up</button>    
+    <header class="header">
+        <div class="container">
+            <div>
+                <h1>My first landing page</h1>
+                <p>This is my first web page project from the The Odin Project. 
+                    It tests what I have learnt so far using HTML and CSS 
+                    and should be completed before starting JavaScript. 
+                    I also learnt how to make the web page responsive for mobile using Youtube tutorials</p>
             </div>
-            <img src="images/mountains.jpg" width="400" alt=""> 
+            <img src="images/mountains.jpg" alt="">
         </div>
-    </div>
+    </header>
 
+    <!--MAIN SECTION-->
+    <section class="boxes">
+        <div class="container">
+            <h2>My top 3 movies</h2>
+            <div class="box">
+                <h2><i class="fas fa-torii-gate"></i>The Last Samurai</h2>
+                <p>Historical epic starring Tom Cruise as a disillusioned 
+                    soldier who finds purpose and meaning in Japan
+                </p>
+            </div>
+            <div class="box">
+                <h2><i class="fas fa-mountain"></i>Avatar</h2>
+                <p>Funnily enough a very similar story to The Last Samurai, 
+                    maybe that says something more about me hmm.....
+                </p>
+            </div>
+            <div class="box">
+                <h2><i class="fas fa-user-graduate"></i>Good Will Hunting</h2>
+                <p>About a boy genius who is too afraid to take the next step and move outside of his hometown.
+                    Great performances from Matt Damon and Robin Williams
+                </p>
+            </div>
+
+        </div>
+    </section>
 </body>
 </html>

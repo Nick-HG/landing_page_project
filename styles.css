@@ -22,6 +22,19 @@ ul {
     list-style: none;
 }
 
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #1f2937;
+    padding: 7px 30px;
+}
+
+button:hover {
+    color: white;
+    background-color: #4a8dfa;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -83,15 +96,7 @@ ul {
 
 .header button {
     margin-top: 10px;
-    color: #f9faf8;
-    background-color: #3882f6;
-    border-radius: 10px;
-    padding: 7px 30px;
-}
-
-.header button:hover {
-    color: white;
-    background-color: #4a8dfa;
+    border: 2px solid #f9faf8;
 }
 
 .header img {
@@ -109,7 +114,7 @@ ul {
 
 /* MAIN SECTION */
 .boxes {
-    min-height: 400px;
+    min-height: 350px;
 }
 
 .boxes .container {
@@ -137,9 +142,53 @@ ul {
     margin-right: 10px;
 }
 
+
 /*QUOTE*/
 .quote {
-    min-height: 300px;
     background-color: #e5e7eb;
 }
 
+.quote .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.blossom {
+    font-size: 36px;
+    color: #3d4c61;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.blossom .cite {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* CALL TO ACTION */
+.sign-up {
+    min-height: 300px;
+    background-color: white;
+}
+
+.sign-up .container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    margin-top: 150px;
+    color: #f9faf8;
+}
+
+.sign-up button {
+    border: 2px solid #f9faf8;
+    font-size: larger;
+}

@@ -1,3 +1,4 @@
+/* CORE/UNIVERSAL */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,6 +28,8 @@ ul {
     padding: 0 30px;
 }
 
+
+/* HEADER */
 .navbar, .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -35,5 +38,108 @@ ul {
 .navbar .logo {
     font-size: 24px;
     font-weight: bold;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+/*flex on the container rather than navbar is because there are two flex items in the container - the logo & nav divs*/
+.navbar .container {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header p {
+    margin-right: 24px;
+    font-size: 18px;
+}
+
+.header button {
+    margin-top: 10px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 7px 30px;
+}
+
+.header button:hover {
+    color: white;
+    background-color: #4a8dfa;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+/*same as navbar container, flex on the container rather than header because it has - container and img as flex items*/
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+/* MAIN SECTION */
+.boxes {
+    min-height: 400px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box {
+    flex: 1;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+}
+
+.box i {
+    margin-right: 10px;
+}
+
+/*QUOTE*/
+.quote {
+    min-height: 300px;
+    background-color: #e5e7eb;
 }
 

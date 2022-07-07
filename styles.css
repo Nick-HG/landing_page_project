@@ -1,4 +1,4 @@
-/* CORE/UNIVERSAL */
+/* UNIVERSAL */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -108,7 +108,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 

@@ -206,3 +206,21 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
+
+/* MOBILE RESPONSIVENESS */
+@media(max-width: 786px) {
+    .header .container {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .header .container button {
+        margin-bottom: 20px;
+    }
+
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
+}
